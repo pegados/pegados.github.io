@@ -1,0 +1,97 @@
+section#sec01{
+    background-image: url("../img/capa.jpg");
+    color: aliceblue;
+    text-align: center;
+    height: 120px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    line-height: 120px;
+    /* display: none; */
+}
+nav{
+
+    text-align: center;
+    text-shadow: 5px blue;
+    background-image: url("../img/nav.png");
+    font-size: 30px;
+}
+
+div#head{
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border: 5px groove blue;
+    z-index: 2;
+    
+}
+
+div.div_corpo{
+    clear: right;
+    text-align: center;
+    margin: 20px 50px;
+    background-color: olivedrab;
+    border: 5px blue;
+    border-style: groove;
+    border-radius: 10px;
+    z-index: 1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+p#p_descricao{
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+p{
+    font-size: 25px;
+    line-height: 40px;
+}
+
+h1{
+    color: aliceblue;
+    font-style: oblique;
+}
+li{
+    font-size: 25px;
+    line-height: 40px;
+}
+ul{
+    list-style-type: square;
+}
+img#wordcloud{
+    height: 450px;
+    border: 2px orange;
+    border-style: dashed;
+    alt:"Worldcloud Áreas de interesse "
+}
+
+#sec01:hover{
+    background-image: url(../img/melhor_time.jpg);
+    height: 200px;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    background-color: black;
+}
+
+a:active{
+    background-color: green;
+}
+
+
+
+body{
+    background-image: url("../img/fundo.jpg");
+    padding-top: 150px;
+}
