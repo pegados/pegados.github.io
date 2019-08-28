@@ -3,7 +3,6 @@ section#sec01{
     color: aliceblue;
     text-align: center;
     height: 120px;
-    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
     font-size: 50px;
@@ -40,6 +39,7 @@ div.div_corpo{
     z-index: 1;
     padding-top: 100px;
     padding-bottom: 100px;
+    opacity: 0.7;
 }
 
 p#p_descricao{
@@ -56,6 +56,12 @@ h1{
     color: aliceblue;
     font-style: oblique;
 }
+
+h2{
+    color: aliceblue;
+    background-color: blue;
+}
+
 li{
     font-size: 25px;
     line-height: 40px;
@@ -70,10 +76,10 @@ img#wordcloud{
     alt:"Worldcloud Áreas de interesse "
 }
 
-#sec01:hover{
+/*#sec01:hover{
     background-image: url(../img/melhor_time.jpg);
     height: 200px;
-}
+}*/
 
 a:link{
     color: white;
@@ -94,4 +100,13 @@ a:active{
 body{
     background-image: url("../img/fundo.jpg");
     padding-top: 150px;
+}
+
+footer{
+    height: 500px;
+    background-color: black;
+    color: white;
+    border: 5px turquoise;
+    border-style: ridge;
+    opacity: 0.9;
 }
